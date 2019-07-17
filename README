@@ -1,0 +1,38 @@
+                                    Team07 Seg Fault 
+
+                                   Chat 'n Chess v1.0
+
+                                      Produced By: 
+                                     Justin Huynh
+                                      Manuel Vega
+                                   Taleen Sarkissian
+                                       Edward Ou
+                                         Hao Fu
+                                       Robert Chen
+
+                                     March 3, 2019
+
+-------------------------------------------------------------------------------------------
+This repository includes source code files for running "Chat 'n Chess".
+
+
+To run the program, type "make" into the command line on the Linux server. Refer to the doc directory for more details. 
+
+
+
+The program structure is broken down into files as follows:
+
+Chat Program:
+- Main/Program Flow: chat.c
+- Client Side: Client.c
+- Server Side: Server.c
+- User Information/Structures: User.c, User.h, UserList.c, UserList.h, UserInfo.h, UserData.txt
+- Compilation: Makefile
+Chess Game:
+- AI: AIstrategies.h, AIStrategies.c
+- Possible Movement Checking: CheckMovement.h, CheckMovement.c
+- Movement/Capture Execution: CheckDestination.h, CheckDestination.c
+- Main/Menu/Display: Chess.c
+- Global Variables: Constants.h
+- Compilation: Makefile 
+- Extra features: Hint Mode
