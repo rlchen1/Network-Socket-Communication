@@ -19,6 +19,8 @@ To run the program, type "make" into the command line on the Linux server. Refer
 The program supports chatting between clients via server using network socket and IP protocol. Clients may choose to add and delete friends,
 chat individually or as a group, and play a classic game of chess.
 
+Data structures consisting of double-linked lists and external files for offline data storage are utilized to save user data upon closure.
+
 
 
 The program structure is broken down into files as follows:
